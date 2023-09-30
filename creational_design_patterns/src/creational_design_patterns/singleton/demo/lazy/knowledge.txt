@@ -1,0 +1,8 @@
+Singleton
+--> A class cannot have multiple instances. Ensure a class only has one instance, 
+	and provide a global point of access to it. --> restrict unnecessary object creations in 
+	a centralized system.
+	
+Lazy initialization is a technique through which you delay the object creation process. 
+It says that you should create an object only when it is required. This approach can be 
+helpful when you deal with expensive processes to create an object

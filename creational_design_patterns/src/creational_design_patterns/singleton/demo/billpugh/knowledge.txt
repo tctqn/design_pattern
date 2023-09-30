@@ -1,0 +1,10 @@
+Singleton
+--> A class cannot have multiple instances. Ensure a class only has one instance, 
+	and provide a global point of access to it. --> restrict unnecessary object creations in 
+	a centralized system.
+
+Prior to Java 5, the Java memory model had a lot of issues, and some approaches used 
+to fail in certain scenarios where too many threads tried to get the instance of the singleton
+class simultaneously. So Bill Pugh came up with a different approach to create the singleton
+class using an inner static helper class.
+
